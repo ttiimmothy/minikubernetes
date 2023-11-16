@@ -22,7 +22,7 @@ on:
       - deleted
 env:
   GOPROXY: https://proxy.golang.org
-  GO_VERSION: '1.21.3'
+  GO_VERSION: '1.21.4'
 
 permissions:
   contents: read
@@ -97,7 +97,7 @@ jobs:
       - name: Install gopogh
         shell: bash
         run: |
-          go install github.com/medyagh/gopogh/cmd/gopogh@v0.23.0
+          go install github.com/medyagh/gopogh/cmd/gopogh@v0.24.0
 
       - name: Docker Info
         shell: bash
