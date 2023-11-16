@@ -1,17 +1,16 @@
-# minikube
+# Minikubernetes
 
 [![Actions Status](https://github.com/kubernetes/minikube/workflows/build/badge.svg)](https://github.com/kubernetes/minikube/actions)
 [![GoReport Widget]][GoReport Status]
 [![GitHub All Releases](https://img.shields.io/github/downloads/kubernetes/minikube/total.svg)](https://github.com/kubernetes/minikube/releases/latest)
 [![Latest Release](https://img.shields.io/github/v/release/kubernetes/minikube?include_prereleases)](https://github.com/kubernetes/minikube/releases/latest)
- 
 
 [GoReport Status]: https://goreportcard.com/report/github.com/kubernetes/minikube
 [GoReport Widget]: https://goreportcard.com/badge/github.com/kubernetes/minikube
 
 <img src="https://github.com/kubernetes/minikube/raw/master/images/logo/logo.png" width="100" alt="minikube logo">
 
-minikube implements a local Kubernetes cluster on macOS, Linux, and Windows. minikube's [primary goals](https://minikube.sigs.k8s.io/docs/concepts/principles/) are to be the best tool for local Kubernetes application development and to support all Kubernetes features that fit. 
+minikube implements a local Kubernetes cluster on macOS, Linux, and Windows. minikube's [primary goals](https://minikube.sigs.k8s.io/docs/concepts/principles/) are to be the best tool for local Kubernetes application development and to support all Kubernetes features that fit.
 
 <img src="https://raw.githubusercontent.com/kubernetes/minikube/master/site/static/images/screenshot.png" width="575" height="322" alt="screenshot">
 
@@ -45,7 +44,7 @@ See the [Getting Started Guide](https://minikube.sigs.k8s.io/docs/start/)
 
 ## Documentation
 
-See https://minikube.sigs.k8s.io/docs/
+See <https://minikube.sigs.k8s.io/docs/>
 
 ## More Examples
 
@@ -63,5 +62,10 @@ minikube is a Kubernetes [#sig-cluster-lifecycle](https://github.com/kubernetes/
 * [Development Roadmap](https://minikube.sigs.k8s.io/docs/contrib/roadmap/)
 
 Join our meetings:
+
 * [Bi-weekly office hours, Mondays @ 11am PST](https://tinyurl.com/minikube-oh)
 * [Triage Party](https://minikube.sigs.k8s.io/docs/contrib/triage/)
+
+## License
+
+Minikubernetes is licensed under [GNU General Public License v3.0](LICENSE).
